@@ -1,26 +1,28 @@
 package org.example.Main;
 
-import org.example.Model.MestrePizzer;
-import org.example.Model.Pizza;
-import org.example.Model.Pizzero;
+import org.example.Model.*;
 
 public class Main {
     public static void main(String[] args) {
 
         MestrePizzer mestrePizzer = new MestrePizzer();
 
-        Pizzero pizzero = new Pizzero();
 
-        mestrePizzer.buildPizzaHawaiiFamily(pizzero);
-        Pizza hawaii = pizzero.getResult();
+        PizzeroHawaii pizzeroHawaii = new PizzeroHawaii();
+        mestrePizzer.buildPizzaHawaiiFamily(pizzeroHawaii);
+        Pizza hawaii = pizzeroHawaii.getResult();
         System.out.println("Pizza:\n" + hawaii.print());
 
-        mestrePizzer.buildPizzaBBQLarge(pizzero);
-        Pizza bbq = pizzero.getResult();
+
+        PizzeroBBQ pizzeroBBQ = new PizzeroBBQ();
+        mestrePizzer.buildPizzaBBQLarge(pizzeroBBQ);
+        Pizza bbq = pizzeroBBQ.getResult();
         System.out.println("Pizza:\n" + bbq.print());
 
-        mestrePizzer.buildPizzaVeggieMedium(pizzero);
-        Pizza veggie = pizzero.getResult();
+
+        PizzeroVeggie pizzeroVeggie = new PizzeroVeggie();
+        mestrePizzer.buildPizzaVeggieMedium(pizzeroVeggie);
+        Pizza veggie = pizzeroVeggie.getResult();
         System.out.println("Pizza:\n" + veggie.print());
 
 
