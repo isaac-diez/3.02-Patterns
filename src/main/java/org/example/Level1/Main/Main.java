@@ -1,6 +1,6 @@
-package org.example.Main;
+package org.example.Level1.Main;
 
-import org.example.Model.*;
+import org.example.Level1.Model.*;
 
 public class Main {
     public static void main(String[] args) {

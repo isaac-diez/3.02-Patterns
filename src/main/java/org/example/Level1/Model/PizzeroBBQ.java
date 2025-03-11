@@ -1,6 +1,6 @@
-package org.example.Model;
+package org.example.Level1.Model;
 
-public class PizzeroVeggie implements PizzaBuilder{
+public class PizzeroBBQ implements PizzaBuilder{
 
     private PizzaType pizzaType;
     private Size size;
