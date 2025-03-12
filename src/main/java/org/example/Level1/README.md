@@ -1,19 +1,34 @@
 📄**Description**
 
-Main objective is to practice and learn is about practice and learn Singleton Design Pattern
+Main objective is to practice and learn is about practice and learn Builder Design Pattern
 
 
 ### English
-Create a class that relies on the operation of the commando 'Undo'. This class will be used by the Main Class, which will allow you to introduce options for console.
+Develop a pizza command management system using the Java Builder design pattern. The system should allow the creation of different types of pizzas with different configurations of size, mass and different ingredients.
 
-The "Undo" class must save the last orders entered. You must allow to add or delete orders, as well as list the last commands in the order in Linux.
-The Undo class must implement a singleton pattern.
+Define a Pizza class with the following attributes:
+- Size
+- Dough 
+- Toppings
+
+Create a PizzaBuilder interface with the methods needed to configure the size, dough and ingredients of a pizza.
+Implement one or more classes that act as specific builders (PizzaBuilder) for different types of pizzas. For example, you could have a builder for Hawaiian pizza, another for vegetarian pizza, etc.
+Develop a PizzaBuilder class that will allow you to build pizzas in a specific way. 
+In the main program, he created PizzaBuilder and MasterPizzer, and uses them to build pizzas with different configurations.
 
 ### Català
-Crea una classe que repliqui el funcionament del comando 'Undo'. Aquesta classe serà utilitzada per la classe Main, que permetrà introduir opcions per consola.
+Desenvolupa un sistema de gestió de comandes de pizzes utilitzant el patró de disseny Builder en Java. El sistema ha de permetre la creació de diferents tipus de pizzes amb configuracions de mida, massa i ingredients diferents.
 
-La classe 'Undo' ha de guardar les últimes comandes introduïdes. Ha de permetre afegir o eliminar comandes, així com llistar les últimes comandes introduïdes (semblant a la comanda 'history' en Linux).
-La classe 'Undo' ha d'implementar imprescindiblement un patró Singleton.
+Defineix una classe Pizza amb els següents atributs:
+- size (mida)
+- dough (tipus de massa)
+- toppings (ingredients)
+
+Crea una interfície PizzaBuilder amb els mètodes necessaris per configurar la mida, la massa i els ingredients d'una pizza.
+Implementa una o més classes que actuïn com a constructors concrets (PizzaBuilder) per a diferents tipus de pizzes. Per exemple, podries tenir un constructor per a la pizza hawaiana, un altre per a la pizza vegetariana, etc.
+Desenvolupa una classe MestrePizzer que rebi un PizzaBuilder i que permeti construir pizzes de manera específica.
+En el programa principal (Main), crea instàncies de PizzaBuilder i de MestrePizzer, i utilitza'ls per construir pizzes amb diferents configuracions.
+
 
 💻**Stack used:**
 Project created with:

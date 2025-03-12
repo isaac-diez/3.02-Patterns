@@ -1,19 +1,17 @@
 📄**Description**
 
-Main objective is to practice and learn is about practice and learn Singleton Design Pattern
+Main objective is to practice and learn is about practice and learn Observable Design Pattern
 
 
 ### English
-Create a class that relies on the operation of the commando 'Undo'. This class will be used by the Main Class, which will allow you to introduce options for console.
+Design a system in which a Stock Exchange (Observable) notifies several stock exchanges (Observers) when the Stock Exchange rises or drops.
 
-The "Undo" class must save the last orders entered. You must allow to add or delete orders, as well as list the last commands in the order in Linux.
-The Undo class must implement a singleton pattern.
+The object must keep references to the Observers.
 
 ### Català
-Crea una classe que repliqui el funcionament del comando 'Undo'. Aquesta classe serà utilitzada per la classe Main, que permetrà introduir opcions per consola.
+Dissenya un sistema en el qual un Agent de Borsa (Observable) notifica a diverses agències de Borsa (Observers) canvis quan la Borsa puja o baixa.
 
-La classe 'Undo' ha de guardar les últimes comandes introduïdes. Ha de permetre afegir o eliminar comandes, així com llistar les últimes comandes introduïdes (semblant a la comanda 'history' en Linux).
-La classe 'Undo' ha d'implementar imprescindiblement un patró Singleton.
+És necessari que l'objecte Observable mantingui referències als Observers.
 
 💻**Stack used:**
 Project created with:
