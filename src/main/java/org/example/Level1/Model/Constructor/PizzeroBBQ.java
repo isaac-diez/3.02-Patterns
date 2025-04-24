@@ -1,6 +1,13 @@
-package org.example.Level1.Model;
+package org.example.Level1.Model.Constructor;
 
-public class PizzeroBBQ implements PizzaBuilder{
+import org.example.Level1.Model.Attributes.Dough;
+import org.example.Level1.Model.Attributes.PizzaType;
+import org.example.Level1.Model.Attributes.Size;
+import org.example.Level1.Model.Attributes.Topping;
+import org.example.Level1.Model.Builder.PizzaBuilder;
+import org.example.Level1.Model.Pizza;
+
+public class PizzeroBBQ implements PizzaBuilder {
 
     private PizzaType pizzaType;
     private Size size;

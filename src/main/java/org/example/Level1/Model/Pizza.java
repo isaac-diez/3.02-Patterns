@@ -1,5 +1,10 @@
 package org.example.Level1.Model;
 
+import org.example.Level1.Model.Attributes.Dough;
+import org.example.Level1.Model.Attributes.PizzaType;
+import org.example.Level1.Model.Attributes.Size;
+import org.example.Level1.Model.Attributes.Topping;
+
 public class Pizza {
 
     private PizzaType pizzaType;
@@ -35,7 +40,7 @@ public class Pizza {
         String info = "Type of pizza: " + this.pizzaType + "\n" +
                 "Dough: " + this.dough  + "\n" +
                 "Size: " + this.size + "\n" +
-                "Toppings: " + (this.toppings.printToppings());
+                "Toppings: " + (this.toppings.printToppings()) + "\n";
 
         return info;
     }

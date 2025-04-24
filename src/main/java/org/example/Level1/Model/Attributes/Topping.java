@@ -1,4 +1,4 @@
-package org.example.Level1.Model;
+package org.example.Level1.Model.Attributes;
 
 public class Topping {
 
