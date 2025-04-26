@@ -1,13 +1,13 @@
-package org.example.Level1.Model.Constructor;
+package org.example.Level1.Constructor;
 
-import org.example.Level1.Model.Attributes.Dough;
-import org.example.Level1.Model.Attributes.PizzaType;
-import org.example.Level1.Model.Attributes.Size;
-import org.example.Level1.Model.Attributes.Topping;
-import org.example.Level1.Model.Builder.PizzaBuilder;
+import org.example.Level1.Attributes.Dough;
+import org.example.Level1.Attributes.PizzaType;
+import org.example.Level1.Attributes.Size;
+import org.example.Level1.Attributes.Topping;
+import org.example.Level1.Builder.PizzaBuilder;
 import org.example.Level1.Model.Pizza;
 
-public class PizzeroVeggie implements PizzaBuilder {
+public class PizzeroBBQ implements PizzaBuilder {
 
     private PizzaType pizzaType;
     private Size size;
@@ -30,11 +30,9 @@ public class PizzeroVeggie implements PizzaBuilder {
     }
 
     @Override
-    public void setToppings(Topping toppings) {
-        this.toppings = toppings;
+    public void setToppings(Topping toppings) { this.toppings = toppings; }
 
-    }
-
+    @Override
     public Pizza getResult() {
         return new Pizza(pizzaType, size, dough, toppings);
     }

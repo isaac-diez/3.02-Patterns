@@ -1,4 +1,4 @@
-package org.example.Level1.Model.Attributes;
+package org.example.Level1.Attributes;
 
 public enum PizzaType {
     VEGGIE, BBQ, HAWAII

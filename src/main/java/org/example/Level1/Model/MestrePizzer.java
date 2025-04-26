@@ -1,10 +1,10 @@
 package org.example.Level1.Model;
 
-import org.example.Level1.Model.Attributes.Dough;
-import org.example.Level1.Model.Attributes.PizzaType;
-import org.example.Level1.Model.Attributes.Size;
-import org.example.Level1.Model.Attributes.Topping;
-import org.example.Level1.Model.Builder.PizzaBuilder;
+import org.example.Level1.Attributes.Dough;
+import org.example.Level1.Attributes.PizzaType;
+import org.example.Level1.Attributes.Size;
+import org.example.Level1.Attributes.Topping;
+import org.example.Level1.Builder.PizzaBuilder;
 
 public class MestrePizzer {
 
